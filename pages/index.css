@@ -1,4 +1,4 @@
-@import url("../vendor/normalize.css");
+@import url("../pages/normalize.css");
 
 @media (min-width: 1600px) {
     .page {
@@ -18,7 +18,7 @@
     background-image: url("../images/background_header.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     min-height: 720px;
 
 }
@@ -147,4 +147,213 @@
     position: absolute;
     left: 80px;
     bottom: 40px;
+}
+
+.menu{
+  position: relative;
+  background-color: #0a2750;
+  background-image: url("../images/background_menu.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.menu__cards{
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content:space-between;
+}
+
+.menu__title{
+  padding-top: 100px;
+  margin-bottom:12px;
+  text-align:center;
+  margin:0 auto;
+  max-width: 780px;
+  padding-bottom: 24px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size:44px;
+  line-height: 52px;
+  color: #ffffff;
+}
+
+.menu__subtitle{
+  margin-top: 12px;
+  margin-bottom: 100px;
+  text-align:center;
+  margin:0 auto;
+  max-width: 780px;
+  padding-bottom: 100px;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.card{
+  max-width:600px;
+  flex-basis:50%;
+  flex-wrap:wrap;
+}
+.card__list{
+  margin:0;
+  padding:0;
+}
+.card__title{
+  margin-bottom: 32px;
+  font-family: "Inter", sans-serif;
+  font-style:normal;
+  font-weight:bold;
+  font-size:20px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.card__list-item{
+  list-style-type: none;
+  margin-top: 16px;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.card__list-divider{
+  text-decoration:underline;
+  flex-grow: 99;
+}
+
+.card:last-of-type{
+  align-self: center;
+}
+.recipes{
+  background-color:#FFFFFF;
+  background-Image: url("../images/background_recipes.svg");
+  background-repeat: no-repeat;
+  background-position: centered;
+  background-size: cover;
+}
+.recipes__title{
+  max-width: 500px;
+  margin-left:80px;
+  margin-top:100px;
+  font-family: "Inter", sans-serif;
+  font-style:normal;
+  font-weight: 500px;
+  font-size: 44px;
+  line-height: 52px;
+}
+
+.recipes__subtitle{
+  max-width:438px;
+  margin-left:80px;
+  margin-top:24px;
+  margin-bottom:80px;
+  font-family:"Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+.recipes__iframe{
+  margin:auto;
+  column-gap:40px;
+  flex-basis: 50%;
+}
+
+.recipes__videos{
+  margin:auto;
+  column-gap:40px;
+  flex-basis:40px;
+}
+
+.recipes__captions{
+  display: flex;
+}
+
+.reservation{
+  background-color: #D9E7FF;
+  background-image: url("../images/background_reservation.svg");
+  background-repeat: no-repeat;
+  background-position: centered;
+  background-size:cover;
+}
+
+.reservation__title{
+  margin-top:100px;
+  margin-bottom:80px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size:44px;
+  line-height: 52px;
+  text-align: center;
+}
+.reservation__form{
+
+}
+
+.form__input{
+  border-radius: 4px;
+}
+.form__fieldset{
+  flex-direction: column;
+}
+.form__button{
+  border-radius: 2px;
+  background-color: #2f80ed;
+  opacity: 1;
+  transition: opacity .5s linear 0s;
+}
+
+.form__button:hover{
+  opacity: 0.7;
+}
+
+input[type="checkbox"]:checked {
+  background-color: #2F80ED;
+  background-image: url("../images/check.svg");
+}
+.about{
+  position: relative;
+  display: flex;
+}
+.about__circle{
+  width:426px;
+  height: 426px;
+  border-radius: 50%;
+  background-color: #2f80ed;
+  position: relative;
+  margin-top:-152px;
+  margin-left: -129px;
+  z-index:-50;
+}
+
+.about__title{
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 80px;
+  max-width: 251px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.about__content{
+  row-gap: 20px;
+  max-width:660px;
+  margin-top: 119px;
+  margin-bottom:80px;
+  font-family: "Noto Serif", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+
 }
