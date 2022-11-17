@@ -8,6 +8,7 @@
   min-height: 720px;
   max-height: 800px;
   height:100vh;
+  position:relative;
 
 }
 
@@ -56,10 +57,13 @@ max-width: 729px;
   height:568px;
 }
 
-.header_footer{
+.header__footer{
   display:flex;
-  justify-content: flex-end;
-  margin-bottom:40px;
+  position:absolute;
+  left: 80px;
+  bottom: 40px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .header__hours{
@@ -70,8 +74,6 @@ max-width: 729px;
 
 
 .header__wrapper-paragraph{
-  margin-bottom: 40px;
-  margin-left: 80px;
 }
 
 .header__paragraph{
@@ -85,7 +87,9 @@ margin: 0 0 0 0;
 }
 
 .header__address{
-  justify-content: space-between;
-  margin-right:80px;
-  margin-bottom:40px;
+  position:absolute;
+  right: 80px;
+  bottom: 40px;
+  padding-right:80px;
+  padding-bottom:-20px;
   }
