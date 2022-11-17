@@ -1,0 +1,90 @@
+
+.header{
+  background-color: #FFFFFF;
+  background-image: url("../images/background_header.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 720px;
+  max-height: 800px;
+  height:100vh;
+
+}
+
+.header__title{
+margin-top: 252px;
+margin-left: 80px;
+max-width: 729px;
+}
+
+.header_wrapper{
+margin-left: 80px;
+margin-bottom: 40px;
+}
+
+.header__span-accent{
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 72px;
+  color: #2F80ED;
+  margin-bottom: 0;
+}
+
+.header__practicum-library{
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 72px;
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.header__description{
+  margin-left: 80px;
+  max-width: 683px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size:20px;
+  line-height: 30px;
+  display:flex;
+  }
+
+.header__image{
+  position:absolute;
+  right:5px;
+  top:124px;
+  width:646px;
+  height:568px;
+}
+
+.header__hours{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  }
+
+
+.header__wrapper-paragraph{
+  margin-bottom: 40px;
+  margin-left: 80px;
+}
+
+.header__paragraph{
+z-index:99;
+font-family: "Inter", "Arial", sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+margin:0 0 0 0;
+}
+
+.header__address{
+  justify-content: space-between;
+  margin-right:80px;
+  margin-bottom:40px;
+  }

@@ -1,0 +1,79 @@
+@keyframes pulsate{
+  0% {
+    opacity:1;
+    transform: scale(1);
+  }
+  50%{
+    opacity:.6;
+    transform: scale(1.25);
+  }
+  100%{
+    opacity:0;
+    transform:scale(1.5);
+
+  }
+}
+
+.about{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background-color: #0A2850;
+  color: white;
+  z-index: -50;
+}
+.about__title{
+  display: flex;
+  margin-top: 100px;
+  margin-left: 80px;
+  max-width: 251px;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  flex-basis: 500px;
+  z-index:99;
+}
+.about__content{
+  row-gap: 20px;
+  max-width:660px;
+  margin-top: 119px;
+  margin-right:80px;
+  margin-bottom: 173px;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.about__paragraph{
+  justify-content: flex-end;
+}
+
+.about__circle{
+  width:426px;
+  height: 426px;
+  border-radius: 50%;
+  background-color: #2f80ed;
+  position: absolute;
+  top:-152px;
+  left: -129px;
+  z-index:1;
+}
+.about__circle_animation_blurred{
+  width:426px;
+  height: 426px;
+  border-radius: 50%;
+  background-color: #2f80ed;
+  position: absolute;
+  top:-152px;
+  left: -129px;
+  z-index:1;
+  animation-name: pulsate;
+  animation-duration: 1.3s;
+  animation-timing-function: ease-in-out;
+  animation-delay:none;
+  animation-iteration-count: infinite;
+}
