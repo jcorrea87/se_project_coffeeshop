@@ -5,7 +5,7 @@
 .footer__content{
   display: flex;
   justify-content: space-between;
-  width: 1440PX;
+  width: 1440px;
   height: 288px;
 }
 .footer__logo{
@@ -30,7 +30,7 @@
 }
 .footer__list-item{
   list-style-type: none;
-  margin-top: 16px
+  margin-top: 16px;
 }
 .footer__social-icon{
   width:16px;
