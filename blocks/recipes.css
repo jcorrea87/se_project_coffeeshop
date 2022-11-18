@@ -4,6 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position:relative;
 }
 .recipes__title{
   max-width: 500px;
@@ -32,11 +33,11 @@
   display: flex;
   margin-bottom:215px;
   column-gap:40px;
-  justify-content: center;
+  margin-left:218px;
 }
 
 .recipes__video{
-  margin-bottom:0;
+  margin-bottom:215px;
 }
 
 .recipes__video-caption{
