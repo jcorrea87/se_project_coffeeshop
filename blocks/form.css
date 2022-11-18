@@ -26,6 +26,7 @@
   font-size:20px;
   line-height:30px;
   color: #838383;
+  margin-left:509px;
 }
 
 .form__button{
@@ -37,6 +38,7 @@
   width:385px;
   height:60px;
   margin-bottom:32px;
+  margin-left: 509px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
