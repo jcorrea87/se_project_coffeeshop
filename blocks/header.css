@@ -8,7 +8,6 @@
   min-height: 720px;
   max-height: 800px;
   height:100vh;
-  width:100vw;
   position:relative;
 
 }
@@ -81,7 +80,6 @@ max-width: 729px;
 }
 
 .header__paragraph{
-z-index:99;
 font-family: "Inter", "Arial", sans-serif;
 font-style: normal;
 font-weight: 500;
@@ -93,7 +91,8 @@ margin: 0 0 0 0;
 .header__address{
   position:absolute;
   right: 80px;
-  bottom: 40px;
+  bottom: 0px;
   padding-right:80px;
   padding-bottom:-20px;
+
 }
