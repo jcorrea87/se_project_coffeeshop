@@ -1,5 +1,6 @@
 .nav{
   display: flex;
+
 }
 
 .nav__link-list{
@@ -7,14 +8,12 @@
   flex-direction: row;
   list-style: none;
   column-gap: 20px;
-  position: absolute;
-  top: 30px;
-  right: 80px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin: 0 auto;
 }
 
 .nav__link{

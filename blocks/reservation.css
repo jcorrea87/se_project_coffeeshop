@@ -15,8 +15,12 @@
   font-size:44px;
   line-height: 52px;
   text-align: center;
+  margin: 0;
 }
 .reservation__form{
   align-items: center;
   padding-bottom: 88px;
+  max-width: 385px;
+  margin: 0 auto;
+
 }
