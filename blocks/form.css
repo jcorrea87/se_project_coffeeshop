@@ -1,56 +1,55 @@
-.form__fieldset{
+.form__fieldset {
   display: flex;
   flex-direction: column;
   align-content: center;
   border: none;
 }
-.form__label{
+.form__label {
   margin-bottom: 8px;
-  margin: 0 0px;
+  margin: 0;
   max-width: 385px;
   font-family: "Inter", "Arial", sans-serif;
-  font-style:normal;
-  font-weight:500;
-  font-size:16px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
   line-height: 20px;
-
 }
-.form__input{
+.form__input {
   border-radius: 4px;
   max-width: 385px;
-  width:385px;
+  width: 385px;
   height: 60px;
-  font-family:"Inter", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size:20px;
-  line-height:30px;
+  font-size: 20px;
+  line-height: 30px;
   color: #838383;
   margin: 0 auto 32px;
+  border-style: none;
+  border: 1px solid #838383;
 }
-
-.form__button{
+.form__button {
   border-radius: 4px;
   background-color: #2f80ed;
   opacity: 1;
-  transition: opacity .5s linear 0s;
+  transition: opacity 0.5s linear 0s;
   max-width: 385px;
-  width:385px;
-  height:60px;
+  width: 385px;
+  height: 60px;
   margin: 0 auto 32px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size:16px;
+  font-size: 16px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #ffffff;
+  border-style: none;
 }
-
-.form__button:hover{
+.form__button:hover {
   opacity: 0.7;
 }
-
-.form__checkbox{
-  align-self:flex-end;
+.form__checkbox {
+  align-self: flex-end;
   margin-left: 2px;
 }
