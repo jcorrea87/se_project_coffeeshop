@@ -33,6 +33,7 @@
 .footer__social-icon {
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
 .footer__social-link {
   text-decoration: none;
@@ -43,7 +44,6 @@
   font-size: 16px;
   line-height: 20px;
   margin-right: 100px;
-  margin-left: 10px;
   transition: color 0.5s linear 0s;
 }
 .footer__social-link:hover {
